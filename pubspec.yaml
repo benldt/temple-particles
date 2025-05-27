@@ -1,0 +1,24 @@
+name: temple_particles
+description: Mobile-optimised 3-shape particle morpher for TempleApp.
+publish_to: "none"
+version: 1.0.0
+
+environment:
+  sdk: ">=3.3.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  provider: ^6.1.2
+  vector_math: ^2.1.4
+  shared_preferences: ^2.2.2    # (optional – retained for TempleApp parity)
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  golden_toolkit: ^0.15.0
+  flutter_lints: ^3.0.0
+
+flutter:
+  assets:
+    - assets/shaders/ 
